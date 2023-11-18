@@ -30,6 +30,10 @@ export default function Svg({ id, width, height }) {
             return (
                 <div className={style.phone} style={{ width: width, height: height }}></div>
             );
+        case 'food-footer':
+            return (
+                <div className={style.foodFooter} style={{ width: width, height: height }}></div>
+            );
 
         default:
             return;

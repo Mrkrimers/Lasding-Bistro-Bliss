@@ -6,7 +6,7 @@
 
     .hat {
         background: #474747;
-        padding: 10px 150px;
+        padding: 10px 140px;
 
         display: flex;
         justify-content: space-between;
@@ -25,8 +25,9 @@
                 font: 400 16px DM Sans;
                 line-height: 24px;
 
-                &:first-child {
-                    margin-right: 10px;
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
                 }
             }
         }
@@ -42,7 +43,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 150px;
+        padding: 20px 140px;
 
         .logo {
             display: flex;

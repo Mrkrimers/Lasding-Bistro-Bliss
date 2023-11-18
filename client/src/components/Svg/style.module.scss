@@ -42,12 +42,19 @@
     background-repeat: no-repeat;
 }
 
+.foodFooter {
+    background-image: url('./assets/japanese-food-footer.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .twit,
 .fbook,
 .insta,
 .git,
 .food,
 .mail,
-.phone:hover {
+.phone,
+.foodFooter:hover {
     cursor: pointer;
 }
