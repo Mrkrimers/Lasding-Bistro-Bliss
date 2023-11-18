@@ -1,0 +1,53 @@
+.twit {
+    background-image: url('./assets/1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.fbook {
+    background-image: url('./assets/2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.insta {
+    background-image: url('./assets/3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.git {
+    background-image: url('./assets/4.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.food {
+    background-image: url('./assets/japanese-food.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mail {
+    background-image: url('./assets/mail.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.phone {
+    background-image: url('./assets/phone.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.twit,
+.fbook,
+.insta,
+.git,
+.food,
+.mail,
+.phone:hover {
+    cursor: pointer;
+}
