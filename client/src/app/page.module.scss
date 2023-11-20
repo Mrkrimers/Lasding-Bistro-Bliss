@@ -1,0 +1,197 @@
+.preview {
+    background-image: url('../components/Img/assets/image\ 110.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 721px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 200px 0;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 40px;
+
+        h1 {
+            color: var(--neutral-07, #2C2F24);
+            text-align: center;
+            font: 400 100px Playfair Display;
+            line-height: 96px;
+
+            max-width: 600px;
+        }
+
+        p {
+            color: var(--neutral-07, #2C2F24);
+            text-align: center;
+
+            font: 400 20px DM Sans;
+            line-height: 32px;
+            max-width: 530px;
+        }
+
+        .btnWrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+
+            .btnBook,
+            .btnExplore {
+                padding: 20px 32px;
+                border-radius: 118px;
+                border: 1.5px solid var(--neutral-07, #2C2F24);
+                color: var(--neutral-07, #182226);
+
+                font: 700 16px DM Sans;
+                line-height: 24px;
+
+                transition: all 0.3s;
+
+                &:hover {
+                    border: 1.5px solid #AD343E;
+                    border: none;
+                    color: var(--neutral-01, #FFF);
+                    background: #AD343E;
+                    cursor: pointer;
+                    box-shadow: 0px 0px 10px 4px rgba(13, 13, 13, 0.162);
+                }
+            }
+
+
+
+        }
+
+    }
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 55px;
+
+    padding: 90px 120px 100px;
+
+    h2 {
+        color: var(--neutral-07, #2C2F24);
+        text-align: center;
+
+        font: 500 55px Playfair Display;
+        line-height: 60.5px;
+    }
+
+    .wrapperFlex {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
+        .border {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 25px;
+
+            border-radius: 12px;
+            border: 1.5px solid var(--neutral-03, #DBDFD0);
+            background: var(--neutral-01, #FFF);
+
+            padding: 40px 34px 32px;
+
+            width: 350px;
+            height: 100%;
+
+            h4 {
+                color: var(--neutral-07, #2C2F24);
+                text-align: center;
+
+                font: 700 24px DM Sans;
+                letter-spacing: -0.72px;
+            }
+
+            P {
+                color: var(--neutral-06, #414536);
+                text-align: center;
+
+                font: 400 16px DM Sans;
+                line-height: 24px;
+            }
+
+            .btnExplore {
+                border-radius: 12px;
+                color: #AD343E;
+                text-align: center;
+
+                font: 700 16px DM Sans;
+                line-height: 24px;
+
+                padding: 6px 12px;
+
+                &:hover {
+                    box-shadow: 0px 0px 10px 4px rgba(13, 13, 13, 0.162);
+                    cursor: pointer;
+                    background-color: #F9F9F7;
+                }
+            }
+        }
+    }
+
+}
+
+.services {
+    background: #F9F9F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 55px;
+
+    padding: 90px 120px 100px;
+
+    h2 {
+        color: var(--neutral-07, #2C2F24);
+        font: 500 55px Playfair Display;
+        line-height: 60.5px;
+        width: 50%;
+    }
+
+    .wrapperFlex {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+
+        .border {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+            gap: 23px;
+            width: 280px;
+
+            h4 {
+                color: var(--neutral-07, #2C2F24);
+                font: 700 24px DM Sans;
+                letter-spacing: -0.72px;
+            }
+
+            p {
+                color: var(--neutral-06, #414536);
+                font: 400 16px DM Sans;
+                line-height: 24px;
+            }
+        }
+    }
+}

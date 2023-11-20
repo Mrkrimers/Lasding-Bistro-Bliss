@@ -92,6 +92,8 @@
             font: 700 16px DM Sans;
             line-height: 24px;
 
+            transition: all 0.3s;
+
             &:hover {
                 cursor: pointer;
                 box-shadow: 0px 0px 10px 4px rgba(13, 13, 13, 0.162);

@@ -34,6 +34,22 @@ export default function Svg({ id, width, height }) {
             return (
                 <div className={style.foodFooter} style={{ width: width, height: height }}></div>
             );
+        case 'icon-coffe':
+            return (
+                <div className={style.iconCoffe} style={{ width: width, height: height }}></div>
+            );
+        case 'icon-dish':
+            return (
+                <div className={style.iconDish} style={{ width: width, height: height }}></div>
+            );
+        case 'icon-juice':
+            return (
+                <div className={style.iconJuice} style={{ width: width, height: height }}></div>
+            );
+        case 'icon-coffe':
+            return (
+                <div className={style.iconDesserts} style={{ width: width, height: height }}></div>
+            );
 
         default:
             return;
