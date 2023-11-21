@@ -34,6 +34,14 @@ export default function Img({ id, width, height }) {
             return (
                 <div className={style.eight} style={{ width: width, height: height }}></div>
             );
+        case '9':
+            return (
+                <div className={style.nine} style={{ width: width, height: height }}></div>
+            );
+        case '10':
+            return (
+                <div className={style.ten} style={{ width: width, height: height }}></div>
+            );
 
         default:
             return;

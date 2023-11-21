@@ -1,5 +1,6 @@
 import style from '@/components/Header/style.module.scss'
 import Svg from '../Svg/Svg'
+import Link from 'next/link'
 
 export default function Header() {
     return (
@@ -31,13 +32,13 @@ export default function Header() {
                 </div>
 
                 <nav className={style.nav}>
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Menu</p>
+                    <Link href={'/'}> <p>Home</p> </Link>
+                    <Link href={'/about'}> <p>About</p> </Link>
+                    <Link href={'/menu'}> <p>Menu</p> </Link>
                 </nav>
 
                 <div className={style.button}>Book A Table</div>
-                
+
             </div>
 
         </header >
