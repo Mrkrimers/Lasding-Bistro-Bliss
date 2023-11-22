@@ -2,8 +2,6 @@
     background-image: url('../components/Img/assets/image\ 110.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 721px;
 
     display: flex;
     flex-direction: column;
@@ -109,8 +107,7 @@
 
             padding: 40px 34px 32px;
 
-            width: 350px;
-            height: 100%;
+            width: 300px;
 
             h4 {
                 color: var(--neutral-07, #2C2F24);
@@ -124,7 +121,6 @@
                 color: var(--neutral-06, #414536);
                 text-align: center;
 
-                font: 400 16px DM Sans;
                 line-height: 24px;
             }
 

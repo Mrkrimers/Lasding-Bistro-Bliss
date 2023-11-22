@@ -1,6 +1,4 @@
-import Header from '@/components/Header/Header'
 import style from './page.module.scss'
-import Footer from '@/components/Footer/Footer'
 import Svg from '@/components/Svg/Svg'
 import Img from '@/components/Img/Img'
 
@@ -12,7 +10,6 @@ const menu = [{ p: 'Breakfast', id: 'icon-coffe', serviceP: 'Caterings', img: '5
 export default function Home() {
   return (
     <>
-      <Header />
 
       <section className={style.preview}>
 
@@ -66,7 +63,6 @@ export default function Home() {
 
       </section>
 
-      <Footer />
     </>
   )
 }

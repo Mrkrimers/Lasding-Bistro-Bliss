@@ -1,6 +1,4 @@
 import style from './style.module.scss'
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
 import Img from '@/components/Img/Img';
 import Svg from '@/components/Svg/Svg';
 
@@ -41,8 +39,6 @@ const helper = [
 export default function About() {
     return (
         <>
-            <Header />
-
             <section className={style.preview}>
 
                 <Img id={'9'} width={'600px'} height={'600px'} />
@@ -99,8 +95,6 @@ export default function About() {
                 <Img id={'10'} width={'500px'} height={'650px'} />
 
             </section>
-
-            <Footer />
         </>
     )
 }
