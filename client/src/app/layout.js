@@ -1,10 +1,8 @@
-import { Inter } from 'next/font/google'
 import './globals.scss'
 import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
 import Head from 'next/head'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,11 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet" />
+        
       </Head>
-      <body className={inter.className}>
+      <body>
         <Header />
 
         {children}

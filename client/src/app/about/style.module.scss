@@ -7,8 +7,7 @@
     padding: 100px 140px;
 
     .textContent {
-        width: 30%;
-
+        width: 45%;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -39,16 +38,12 @@
 
     .contacts {
         position: absolute;
-        width: 411px;
-        height: 321px;
+        width: 437px;
         border-radius: 12px;
         background: #474747;
-
-        left: 27%;
-        top: 53%;
-
+        left: 22%;
+        top: 52%;
         padding: 50px;
-
         display: flex;
         flex-direction: column;
         gap: 45px;
@@ -106,6 +101,7 @@
         }
 
         p {
+            margin-top: 14px;
             color: var(--neutral-06, #414536);
 
             font: 400 16px DM Sans;

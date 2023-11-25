@@ -41,7 +41,7 @@ export default function About() {
         <>
             <section className={style.preview}>
 
-                <Img id={'9'} width={'600px'} height={'600px'} />
+                <Img id={'9'} width={'580px'} height={'580px'} />
 
                 <div className={style.textContent}>
                     <h1>We provide healthy food for your family.</h1>
