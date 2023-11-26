@@ -92,7 +92,7 @@ export default function About() {
 
                 </div>
 
-                <Img id={'10'} width={'500px'} height={'650px'} />
+                <Img id={'10'} width={'45%'} height={'650px'} />
 
             </section>
         </>

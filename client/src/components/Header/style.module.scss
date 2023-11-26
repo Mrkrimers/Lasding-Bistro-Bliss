@@ -62,6 +62,13 @@
                 font: 600 42px Playfair Display;
                 font-style: italic;
                 letter-spacing: -0.4px;
+
+                transition: all 1s;
+
+                &:hover {
+                    cursor: pointer;
+                    scale: 1.099;
+                }
             }
         }
 
@@ -79,10 +86,16 @@
                 border-radius: 34px;
                 padding: 4px 16px;
 
+                transition: all 0.2s;
+
                 &:hover {
                     background: #DBDFD0;
                     cursor: pointer;
                 }
+            }
+
+            .active {
+                background: #DBDFD0;
             }
         }
 

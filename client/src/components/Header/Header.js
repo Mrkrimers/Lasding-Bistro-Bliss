@@ -1,8 +1,12 @@
+"use client"
+import { usePathname } from 'next/navigation'
 import style from '@/components/Header/style.module.scss'
 import Svg from '../Svg/Svg'
 import Link from 'next/link'
 
 export default function Header() {
+    const pathname = usePathname();
+
     return (
         <header className={style.header}>
 
@@ -32,9 +36,9 @@ export default function Header() {
                 </div>
 
                 <nav className={style.nav}>
-                    <Link href={'/'}> <p>Home</p> </Link>
-                    <Link href={'/about'}> <p>About</p> </Link>
-                    <Link href={'/menu'}> <p>Menu</p> </Link>
+                    <Link href={'/'}> <p className={pathname === '/' ? style.active : null}>Home</p> </Link>
+                    <Link href={'/about'}> <p className={pathname === '/about' ? style.active : null}>About</p> </Link>
+                    <Link href={'/menu'}> <p className={pathname === '/menu' ? style.active : null}>Menu</p> </Link>
                 </nav>
 
                 <div className={style.button}>Book A Table</div>
