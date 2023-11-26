@@ -26,7 +26,7 @@ export default function Menu() {
                 {arr.map((el) =>
                     <div key={el.id} className={style.item}>
 
-                        <Png id={el.id} width={'270px'} height={'204px'} />
+                        <Png id={el.id} width={'290px'} height={'219px'} />
 
                         <div className={style.textMenu}>
                             <h3>{el.price}</h3>
