@@ -53,7 +53,7 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                gap: 19px;
+                gap: 15px;
 
                 h3 {
                     color: #AD343E;
@@ -72,7 +72,7 @@
                     &:last-child {
                         color: var(--neutral-06, #414536);
 
-                        font: 400 14px DM Sans;
+                        font: 400 16px DM Sans;
                         line-height: 24px;
                     }
                 }
