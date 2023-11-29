@@ -1,5 +1,6 @@
 import Png from '@/components/Png/Png'
 import style from './style.module.scss'
+import Link from 'next/link'
 
 const arr = [
     { id: 1, price: '$ 9.99', dish: 'Fried Eggs', description: 'Made with eggs, lettuce, salt, oil and other ingredients.' },
@@ -24,19 +25,21 @@ export default function Menu() {
             <div className={style.menuContent}>
 
                 {arr.map((el) =>
-                    <div key={el.id} className={style.item}>
+                    <Link key={el.id} href={`/menu/${el.id}`}>
+                        <div className={style.item}>
 
-                        <Png id={el.id} width={'290px'} height={'219px'} />
+                            <Png id={el.id} width={'290px'} height={'219px'} />
 
-                        <div className={style.textMenu}>
-                            <h3>{el.price}</h3>
-                            <p>{el.dish}</p>
-                            <p>{el.description}</p>
+                            <div className={style.textMenu}>
+                                <h3>{el.price}</h3>
+                                <p>{el.dish}</p>
+                                <p>{el.description}</p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 )}
 
             </div>
-        </div>
+        </div >
     )
 } 
