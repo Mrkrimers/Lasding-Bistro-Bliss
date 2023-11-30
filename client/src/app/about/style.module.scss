@@ -1,10 +1,10 @@
 .preview {
     position: relative;
-    background: var(--neutral-02, #F9F9F7);
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 140px;
+    padding: 70px 140px 100px;
 
     .textContent {
         width: 45%;
@@ -82,6 +82,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 100px 140px;
+
+    background: var(--neutral-02, #F9F9F7);
 
     .wrapperText {
         width: 45%;

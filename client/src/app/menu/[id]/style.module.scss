@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 70px 0 100px;
+
+    .textContent {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        h1 {
+            color: var(--neutral-07, #2C2F24);
+
+            font: 500 55px Playfair Display;
+            line-height: 60.5px;
+        }
+
+        p {
+            color: var(--neutral-07, #2C2F24);
+
+            font: 500 18px DM Sans;
+            line-height: 28px;
+
+            &:last-child {
+                color: #AD343E;
+                font: 400 16px DM Sans;
+                line-height: 24px;
+            }
+        }
+
+    }
+}
